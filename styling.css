@@ -1,0 +1,187 @@
+* {
+
+}
+
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    background-color: #B2A4FF;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0;
+    padding-top: 30px;
+}
+#brand {
+    float: left;
+}
+/*
+Math the fun way 
+*/
+h1 a{
+    font-size: 70px;
+    font-weight: bolder;
+    color: #FDF7C3;
+    text-decoration: none;
+    line-height: 35px;
+    margin-left: 30px;
+}
+
+#searchBox {
+    float: right;
+    background: linear-gradient(#FFB4B4, #FDF7C3);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.text {
+    float: left;
+    width: 150px;
+    padding: 5px;
+    font-size: 15px;
+    color: orange;
+    background: white url(searchSmall.png) right center no-repeat;
+    border: 1px solid #B2A4FF;
+    border-radius: 20px;
+}
+
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #B2A4FF;
+    font-size: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+#menu{
+    flex: auto;
+    height: 70px;
+    background: linear-gradient(#FFDEB4, #FDF7C3);
+    border-radius: 30px;
+    padding: 10px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid #B2A4FF;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #B2A4FF;
+    line-height: 30px;
+    transition: font-size .18s;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#intro {
+    background: linear-gradient(#FFDEB4, #FDF7C3);
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+
+#intro h3{
+    font-size: 45px;
+    font-weight: normal;
+    color: #413a6b;
+}
+
+#intro p{
+    font-size: 25px;
+    color: #413a6b;
+    text-align: justify;
+    line-height: normal;
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid #B2A4FF;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color: #413a6b;
+    font-size: 30px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #413a6b;
+    transition: color .1s, font-size .3s;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #B2A4FF;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#leftsidebar{
+    float: left;
+}
+
+.sidebar ul{
+    padding-top: 10px;
+}
+
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(images/arrow-3xWKIV.png);
+}
+
+#rightsidebar{
+    float: right;
+}
+
+#rightsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(images/arrow-3xWKIV.png);
+    line-height: 30px;
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#FFDEB4, #FDF7C3);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
